@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/adminarchanapatil/static/css/main.acdbb370.css",
-    "main.js": "/adminarchanapatil/static/js/main.18c8c2db.js",
+    "main.js": "/adminarchanapatil/static/js/main.c639d264.js",
     "static/media/ArchanaCalligraphy.png": "/adminarchanapatil/static/media/ArchanaCalligraphy.3832df0f404e13545a66.png",
     "static/media/bjp_logo.png": "/adminarchanapatil/static/media/bjp_logo.5b9eb792f0e6ed99ae08.png",
     "static/media/profile.png": "/adminarchanapatil/static/media/profile.e085bab753c976dd5f15.png",
     "index.html": "/adminarchanapatil/index.html",
     "main.acdbb370.css.map": "/adminarchanapatil/static/css/main.acdbb370.css.map",
-    "main.18c8c2db.js.map": "/adminarchanapatil/static/js/main.18c8c2db.js.map"
+    "main.c639d264.js.map": "/adminarchanapatil/static/js/main.c639d264.js.map"
   },
   "entrypoints": [
     "static/css/main.acdbb370.css",
-    "static/js/main.18c8c2db.js"
+    "static/js/main.c639d264.js"
   ]
 }
