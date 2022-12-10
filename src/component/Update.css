@@ -1,0 +1,68 @@
+.update-page
+{
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+
+.update-page table
+{
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+.update-field
+{
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.update-field label
+{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.update-field input[type="text"]
+{
+    height: 3rem;
+    border-radius: 5px;
+    width: 20rem;
+    border: 1px solid gray;
+    outline: none;
+    margin-right: 1rem;
+    margin-top: 0;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.update-field select
+{
+    font-size: 1.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 3rem;
+    margin-bottom: 0;
+    width: 10rem;
+    padding: 0 0.5rem;
+    outline: none;
+}
+
+.update-page .submit
+{
+    outline: none;
+    border: none;
+    background-color: #F97D09;
+    color: #ffffff;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

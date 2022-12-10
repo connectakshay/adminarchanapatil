@@ -1,0 +1,160 @@
+.table-container
+{
+    width: 80vw;
+    margin: auto;
+}
+
+.table-container h1
+{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.table-container table 
+{
+    margin: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.table-container th
+{
+    padding: 0.8rem;
+    background-color: #F97D09;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.table-container td
+{
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    width: 5rem;
+}
+
+.table-container tr:nth-child(even)
+{
+    background-color: #ffb269;
+}
+
+.table-container td:last-child
+{
+    cursor: pointer;
+}
+
+.update-btn
+{
+    border: none;
+    outline: none;
+    background-color: #F97D09;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+}
+
+.table-container select
+{
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+tbody select
+{
+    margin-bottom: 1rem;
+}
+
+.table-header
+{
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.old_compliant
+{
+    width: 33%;
+}
+
+.old_compliant .inner-box
+{
+    background-color: #F97D09;
+    width: 12rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 5px; */
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.old_compliant button
+{
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background: transparent;
+}
+
+
+.inner-box .right-aero
+{
+    font-size: 2rem;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.table-heading
+{
+    width: 33%;
+}
+
+.table-heading h1
+{
+    margin-bottom: 0;
+}
+
+.table-header .search_box input[type="text"]
+{
+    height: 100%;
+    border-radius: 25px;
+    /* border: 1px solid gray; */
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    padding-left: 1.2rem;
+}
+
+.table-header .search_box
+{
+    border: 1px solid gray;
+    border-radius: 25px;
+    /* right: 1rem;  */
+    display: flex;
+    align-items: center;
+    padding-right: 1.2rem;
+    width: 33%;
+    height: 3.5rem;
+    cursor: pointer;
+}
+
+.right-aero-rotate
+{
+    transform: rotate(90deg);
+    font-size: 2rem;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/* .search_box input[type="text"]::placeholder
+{
+    font-size: 2rem;
+} */

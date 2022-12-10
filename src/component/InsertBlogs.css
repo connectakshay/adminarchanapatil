@@ -1,0 +1,115 @@
+.blog-form
+{
+    width: 500px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.blog-form input[type="text"]
+{
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    height: 4rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    padding: 1rem 0.5rem 1rem 1rem;
+}
+
+.blog-form input[type="file"]
+{
+    border: none;
+    font-size: 1.5rem;
+}
+
+.blog-form input[type="text"]
+{
+    font-size: 1.8rem;
+    padding: 1rem 0.5rem 1rem 1rem;
+}
+
+.blog-form label
+{
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+}
+
+.blog-form h1
+{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.blog-form textarea
+{
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+    resize: none;
+    font-size: 1.8rem;
+    padding: 1rem 0.5rem 1rem 1rem;
+}
+
+.blog-form input[type="submit"]
+{
+    width: 100%;
+    background-color: #F97D09;
+    color: #ffffff;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 0.5rem 0;
+    margin-top: 3rem;
+}
+
+.blog-form input[type="date"]
+{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+/* ------------------------------------media---------------------------------- */
+
+@media (max-width: 576px)
+{
+    .blog-form
+    {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .blog-form
+    {
+        width: 90vw;
+    }
+    .blog-form label
+    {
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+    }
+}
+
+@media (max-width: 380px)
+{
+    .blog-form
+    {
+        width: 100vw;
+    }
+    .blog-form label
+    {
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+    }
+    .blog-form input[type="file"]
+    {
+        font-size: 1.3rem;
+    }
+}
